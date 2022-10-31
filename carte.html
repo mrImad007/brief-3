@@ -88,22 +88,19 @@
                 <i class="fa fa-shopping-cart" aria-hidden="true" style="margin-right: 35px; ;"></i>
             </div>
         </header>
-<!-- 
-        <div class="dropdown">
-                <label >☰</label>
-            <nav>
-                <ul>
-                <li><a href="index.html">Home</a></li><br>
-                <li><a href="carte.html" style="color:#E99C2E;">carte</a></li><br>
-                <li><a href="about.html">About</a></li><br>
-                <li><a href="contact.html">Contact</a></li></ul>
-            </nav>
-            <div id="logo" style="font-family:Inter ;">
-                <p>HITA<span style="color: #E99C2E;">SHI</span></p>
+
+        <div class="bannier">
+            <div class="banner hidden">
+                <div id="ad">
+                    <h2 class="head"><u>Addition</u></h2>
+                </div>
+                <div id="p" style="padding: 10px; padding-top: 0%;"></div>
+                <div class="foot">
+                    <button class="priceB" onclick="calcul()">Calcul</button>
+                    <h4 id="price">Total : 0 DH</h4>
+                </div>
             </div>
-            <div id="cart">
-                <i class="fa fa-shopping-cart" aria-hidden="true" style="margin-right: 35px; ;"></i>
-            </div> -->
+          </div>
     </div>
     <!--/.title-->
     <div id="carte-title">
@@ -112,9 +109,9 @@
         </h1>
     </div>
     <!--/.select-->
-    <div class="select">
-        <select name="food" id="food">
-        <option value="">Vous avez faim ?</option>
+    <div class="select" >
+        <select name="food" id="food" onchange="change()">
+        <option value="all">Vous avez faim ?</option>
         <option value="entrée">Les entrées</option>
         <option value="salade">Les salades</option>
         <option value="sushi">Les plats sushi</option>
@@ -130,7 +127,7 @@
             <div id="tag">
                 <p>Dim sum - 40dh</p>
             </div>
-            <button id="btn">
+            <button class="btn" id="0">
                 <span>Ajouter</span>
             </button>
         </div>
@@ -142,7 +139,7 @@
             <div id="tag">
                 <p>Nems - 45 DH</p>
             </div>
-            <button id="btn">
+            <button class="btn" id="1">
                 <span>Ajouter</span>
             </button>
         </div>
@@ -154,7 +151,7 @@
             <div id="tag">
                 <p>Gambas - 50 DH</p>
             </div>
-            <button id="btn">
+            <button class="btn" id="2">
                 <span>Ajouter</span> 
             </button>
         </div>
@@ -168,7 +165,7 @@
             <div id="tag">
                 <p>yam nua - 50 DH</p>
             </div>
-            <button id="btn">
+            <button class="btn" id="3">
                 <span>Ajouter</span> 
             </button>
         </div>
@@ -180,7 +177,7 @@
             <div id="tag">
                 <p>Wakame - 65 DH</p>
             </div>
-            <button id="btn">
+            <button class="btn" id="4">
                 <span>Ajouter</span> 
             </button>
         </div>
@@ -192,7 +189,7 @@
             <div id="tag">
                 <p>yam talai - 70 DH</p>
             </div>
-            <button id="btn">
+            <button class="btn" id="5">
                 <span>Ajouter</span> 
             </button>
         </div>
@@ -206,7 +203,7 @@
                     <div id="tag">
                         <p>assort A - 55 DH</p>
                     </div>
-                    <button id="btn">
+                    <button class="btn" id="6">
                         <span>Ajouter</span> 
                     </button>
                 </div>
@@ -218,7 +215,7 @@
                     <div id="tag">
                         <p>familly B - 100 DH</p>
                     </div>
-                    <button id="btn">
+                    <button class="btn" id="7">
                         <span>Ajouter</span> 
                     </button>
                 </div>
@@ -230,7 +227,7 @@
                     <div id="tag">
                         <p>familly c - 120 DH</p>
                     </div>
-                    <button id="btn">
+                    <button class="btn" id="8">
                         <span>Ajouter</span> 
                     </button>
                 </div>
@@ -252,5 +249,7 @@
                 </div>
             </div>
         </footer>
+
+        <script src="main.js"></script>
 </body>
 </html>

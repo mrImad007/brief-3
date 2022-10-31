@@ -185,9 +185,6 @@ header{
         transform: translateX(-100%);
         transition: all 1s ease;
     }
-    .show{
-        transform: translateX(0);
-    }
     .logo{
         text-align: center;
     }
@@ -450,11 +447,11 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
-#btn {
+.btn {
     background-color: black;
     border-radius: 10px;
 }
-#btn span{
+.btn span{
     color: #E99C2E;
 }
 .menu1{
@@ -496,5 +493,49 @@ body{
     .menu1,.menu2,.menu3{
         flex-direction: column;
     }
+    .hidden{
+        left: 400px;
+    }
 
 }
+
+.bannier {
+    display: inline-block;
+    flex: 2;
+    justify-items: center;
+    padding-left: 100px;
+  }
+
+  .banner {
+    position: absolute;
+    background-color: black;
+    min-width: 250px;
+    height: 400px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    float: left;
+    overflow: auto;
+    margin-top: -20px;
+    left: 1260px;
+  }
+  .hidden{
+    display: none;
+  }
+ .cart .fa :hover .banner {
+    display: block;
+  }
+
+  #ad h2{
+    color: white;
+    text-align: center;
+  }
+  #price{
+    color: white;
+  }
+  .priceB{
+    margin-left: 160px;
+    background-color: #E99C2E;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+  }
