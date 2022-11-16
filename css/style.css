@@ -4,7 +4,7 @@
     background-image: url('/pics/sushiapp.jpg');
     width: 100%;
     height: 700px;
-    margin-top: 0%;
+    margin-top: -15px;
     background-size: cover;
     background-position: center;
     padding: 0px;
@@ -24,6 +24,7 @@
     margin-bottom: 100px;
     font-family: Inter;
 }
+<<<<<<< HEAD
 #ho-cont1 h1{
     width: 500px;
 }
@@ -31,52 +32,16 @@
     color: #E99C2E;
     font-family: 'Inter';
     margin-left: 120px;
+=======
+#ho-cont1 button{
+    margin-left: 200px;
+    background-color: #E99C2E;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+>>>>>>> a2d4530a248802f014242ce0366479d23986ca4d
 }
-
-/* nav{
-    height: 50px;
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-}
-#header{
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-#header p{
-    color: white;
-    font-weight: bold;
-    margin-left: 35px;
-}
-#header nav ul{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-#header nav ul li a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    display: block;
-    margin-right: 20px;
-}
-#header nav ul li a:hover {
-    color: #E99C2E;
-}
-#cart{
-    color: white;
-    float: right;
-    margin-left: 0px;
-}
-.dropdown{
-    display: none;
-}
-.dropdown nav ul li {
-    display: inline-block;
-    margin-top: 15px;
-} */
 .ho-cont2{
     display: flex;
     justify-content: space-between;
@@ -142,7 +107,14 @@
 .footer p{
     color: white;
 }
+<<<<<<< HEAD
 .footer-social i:hover{color: #E99C2E;}
+=======
+.footer-social i:hover{
+    color: #E99C2E;
+}
+
+>>>>>>> a2d4530a248802f014242ce0366479d23986ca4d
 header{
     display: flex;
     justify-content: space-around;
@@ -152,6 +124,15 @@ header{
 }
 .burger, .logo,.nav-links,.cart{
     flex: 1;
+}
+.logo{
+    padding-left: 10px;
+}
+.logo p{
+    font-family: Inter;
+}
+.nav-links a {
+    font-family: Inter;
 }
 .burger{
     display: none;
@@ -419,11 +400,13 @@ body{
     justify-content: space-between;
 }
 .btn {
-    background-color: black;
+    background-color: #E99C2E;
     border-radius: 10px;
+    width: 100px;
+    margin-left: 145px;
 }
 .btn span{
-    color: #E99C2E;
+    color: aliceblue;
 }
 .menu1{
     display: flex;
@@ -489,11 +472,16 @@ body{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     margin-top: -20px;
+<<<<<<< HEAD
     right: 0px;
     transition: all .5s ease;
     transform: translateX(100%);
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
+=======
+    left: 1090px;
+    font-family: Inter ;
+>>>>>>> a2d4530a248802f014242ce0366479d23986ca4d
   }
   .show-banner{
     transform: translateX(-3%);
@@ -516,4 +504,12 @@ body{
     width: 70px;
     height: 30px;
     border-radius: 10px;
+<<<<<<< HEAD
   }
+=======
+  }
+  .cart{
+    display: flex;
+    justify-content: flex-end;
+}
+>>>>>>> a2d4530a248802f014242ce0366479d23986ca4d
