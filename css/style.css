@@ -1,7 +1,7 @@
 /*home page*/
 
 .background1{
-    background-image: url('/pics/sushiapp.jpg');
+    background-image: url('./pics/sushiapp.jpg');
     width: 100%;
     height: 700px;
     margin-top: -15px;
@@ -24,7 +24,6 @@
     margin-bottom: 100px;
     font-family: Inter;
 }
-<<<<<<< HEAD
 #ho-cont1 h1{
     width: 500px;
 }
@@ -32,15 +31,6 @@
     color: #E99C2E;
     font-family: 'Inter';
     margin-left: 120px;
-=======
-#ho-cont1 button{
-    margin-left: 200px;
-    background-color: #E99C2E;
-    color: black;
-    border: none;
-    border-radius: 10px;
-    height: 30px;
->>>>>>> a2d4530a248802f014242ce0366479d23986ca4d
 }
 .ho-cont2{
     display: flex;
@@ -107,14 +97,9 @@
 .footer p{
     color: white;
 }
-<<<<<<< HEAD
-.footer-social i:hover{color: #E99C2E;}
-=======
 .footer-social i:hover{
     color: #E99C2E;
 }
-
->>>>>>> a2d4530a248802f014242ce0366479d23986ca4d
 header{
     display: flex;
     justify-content: space-around;
